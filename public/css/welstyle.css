@@ -1,0 +1,13 @@
+body{
+    background-color: #ecf0f3;
+}
+.main{
+    display: flex;
+    justify-content: center;
+  }
+  .main img{
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-self: center;
+  }

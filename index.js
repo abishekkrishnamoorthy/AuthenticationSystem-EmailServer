@@ -1,0 +1,12 @@
+const express= require('express')
+const app=express()
+const path=require('path')
+const fs=require('fs')
+app.use(express.urlencoded({extended: false}))
+app.use(express.json())
+app.use(express.static(path.join('./public')))
+app.use('/',require('./routes/root'))
+app.use('/',require('./routes/sginup'))
+app.use('/',require('./routes/login'))
+app.listen('3000',console.log("running"))
+
