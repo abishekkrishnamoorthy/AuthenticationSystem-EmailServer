@@ -1,5 +1,4 @@
 # EmailAuthID
-
 EmailAuthID is a user authentication system that sends user IDs via email for login. This repository contains the code and components necessary to implement this functionality.
 
 ## Features
